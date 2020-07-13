@@ -7,27 +7,27 @@ A Library used by the Kepler Gymnasium to run 5v Arduino Motors
 #include <Motor.h>
 ```
 
-#### Make Motor object for a motor connected to pin 3 and 5
+#### Create motor object for a motor connected to pin 3 and 5
 ```
-Motor mot(3, 5);
-```
-
-#### Attach Motor
-```
-mot.attach();
+Motor motor(3, 5)
 ```
 
-#### Rotate Motor clockwise at full speed
+#### Attach motor
 ```
-mot.set(255)
-```
-
-#### Rotate Motor anticlockwise at full speed
-```
-mot.set(-254)
+motor.attach()
 ```
 
-#### Stop Motor
+#### Rotate motor clockwise at full speed
 ```
-mot.set(0)
+motor.set(255)
+```
+
+#### Rotate motor anticlockwise at full speed
+```
+motor.set(-254)
+```
+
+#### Stop motor
+```
+motor.set(0)
 ```
